@@ -3,7 +3,7 @@ from IPython import embed
 import time
 
 
-seed = time.time()
+seed = round(time.time())
 random.seed(seed)
 print("Seed is: "+str(seed))
 
